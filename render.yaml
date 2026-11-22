@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: limpadados
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: BASE_URL
+        sync: false

@@ -1,0 +1,20 @@
+{
+  "name": "limpadados-activity-provider",
+  "version": "1.0.0",
+  "description": "Activity Provider \"LimpaDados\" para a arquitetura Inven!RA (UAb/UTAD - Arquitetura e Padrões de Software)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/api.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "license": "MIT"
+}
